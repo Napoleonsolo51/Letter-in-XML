@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--Business letter marked up with XML-->
+<!DOCTYPE letter SYSTEM "letter.dtd>
+
+
+<letter>
+  <contact type ="sender">
+    <name>Jane Smith</name>
+    <address1>Box 12345</address1>
+    <address2>15 Any Ave.</address2>
+    <city>London</city>
+    <Postcode>SW1</Postcode>
+    <phone>02071234567</phone>
+    <flag gender ="F"/>
+  </contact>
+  <contact type="receiver">
+    <name>John Smith</name>
+    <address1>51 London Road</address1>
+    <address2></address2>
+    <city>London</city>
+    <postcode>W1</postcode>
+    <phone>0161</phone>
+    <flag gender ="M"/>
+  </contact>
+
+  <salution>Dear Sir:</salution>
+
+  <Paragraph>
+    It is our privilege to inform you about our new database managed with XML.
+    This new system allows you to reduce the load on your inventory list server
+    by having the client machine perform the work of sorting and filtering the data.
+  </Paragraph>
+  <closing>Sincerly,</closing>
+  <signature>Ms. Jane Smith</signature>
+</letter>
